@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Utilities*/
+.text_center{
+    text-align: center;
+}
+
+.mx_auto{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mr_1rem{
+    margin-right: 1rem;
+}
+
+.pt_2rem{
+    padding-top: 2rem;
+}
+
+.py_2rem{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Form*/
+.section_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4rem;
+}
+
+.form_input{
+    height: 35px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form_submit{
+    width: 205px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.input_disabled{
+    cursor: not-allowed;
+}
+
+/*User*/
+.user_list_table{
+   border-spacing: 1rem;
+   border: 1px solid #000;
+
+}
+
+
